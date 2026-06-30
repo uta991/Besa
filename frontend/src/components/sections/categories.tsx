@@ -7,6 +7,7 @@ import {
   ScanFace,
   Puzzle,
   KeyRound,
+  Key,
   ArrowRight,
   type LucideIcon,
 } from "lucide-react";
@@ -32,6 +33,7 @@ const CATEGORIES: Category[] = [
   },
   { key: "cat.accessories", slug: "accessories", icon: Puzzle, href: "#" },
   { key: "cat.closers", slug: "shveicari", icon: KeyRound, href: "#" },
+  { key: "cat.cylinders", slug: "cylinders", icon: Key, href: "#" },
 ];
 
 export function Categories() {
@@ -42,7 +44,7 @@ export function Categories() {
         <h2 className="mb-8 text-2xl font-bold tracking-tight text-brand sm:text-3xl">
           {t("sec.categories")}
         </h2>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
           {CATEGORIES.map(({ key, slug, icon: Icon, href }) => {
             const title = t(key);
             return (

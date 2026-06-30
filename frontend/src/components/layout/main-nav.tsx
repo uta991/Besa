@@ -10,6 +10,7 @@ import {
   ScanFace,
   Puzzle,
   KeyRound,
+  Key,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -29,6 +30,7 @@ const CATEGORIES: { key: string; href: string; icon: LucideIcon }[] = [
   { key: "cat.smartLocks", href: "/smart-locks", icon: ScanFace },
   { key: "cat.accessories", href: "/#categories", icon: Puzzle },
   { key: "cat.closers", href: "/#categories", icon: KeyRound },
+  { key: "cat.cylinders", href: "/#categories", icon: Key },
 ];
 
 const linkBase =

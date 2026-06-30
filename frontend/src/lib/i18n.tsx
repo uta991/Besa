@@ -142,7 +142,9 @@ const ka: Dict = {
   "cat.smartLocks": "ჭკვიანი საკეტები",
   "cat.accessories": "აქსესუარები",
   "cat.closers": "შვეიცრები",
+  "cat.cylinders": "ცილინდრული გულარა",
   "brand.tagline": "უსაფრთხოების სისტემები",
+  "brand.empty": "ამ ბრენდის პროდუქცია მალე დაემატება.",
   "hero.title1": "უსაფრთხოება",
   "hero.title2": "თქვენი სახლისა და ბიზნესისთვის",
   "hero.subtitle":
@@ -250,7 +252,9 @@ const en: Dict = {
   "cat.smartLocks": "Smart locks",
   "cat.accessories": "Accessories",
   "cat.closers": "Door closers",
+  "cat.cylinders": "Cylinder cores",
   "brand.tagline": "Security systems",
+  "brand.empty": "Products for this brand are coming soon.",
   "hero.title1": "Security",
   "hero.title2": "for your home and business",
   "hero.subtitle":
@@ -359,7 +363,9 @@ const ru: Dict = {
   "cat.smartLocks": "Умные замки",
   "cat.accessories": "Аксессуары",
   "cat.closers": "Доводчики",
+  "cat.cylinders": "Цилиндры",
   "brand.tagline": "Системы безопасности",
+  "brand.empty": "Продукция этого бренда скоро появится.",
   "hero.title1": "Безопасность",
   "hero.title2": "для вашего дома и бизнеса",
   "hero.subtitle":
