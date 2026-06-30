@@ -24,7 +24,7 @@ export const CATALOG: CatalogItem[] = [
     name: s.model,
     brand: s.brand,
     brandSlug: brandSlug(s.brand),
-    categoryKey: "cat.safes",
+    categoryKey: s.gunSafe ? "cat.gunSafes" : "cat.safes",
     price: s.price,
     image: s.image,
     imgFit: s.imgWide ? "contain" : "cover",

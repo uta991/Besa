@@ -8,7 +8,7 @@ import {
   Puzzle,
   KeyRound,
   Key,
-  ArrowRight,
+  Target,
   type LucideIcon,
 } from "lucide-react";
 import Link from "next/link";
@@ -34,6 +34,12 @@ const CATEGORIES: Category[] = [
   { key: "cat.accessories", slug: "accessories", icon: Puzzle, href: "#" },
   { key: "cat.closers", slug: "shveicari", icon: KeyRound, href: "#" },
   { key: "cat.cylinders", slug: "cylinders", icon: Key, href: "#" },
+  {
+    key: "cat.gunSafes",
+    slug: "gun-safes",
+    icon: Target,
+    href: "/safes?cat=gun",
+  },
 ];
 
 export function Categories() {
@@ -44,7 +50,7 @@ export function Categories() {
         <h2 className="mb-8 text-2xl font-bold tracking-tight text-brand sm:text-3xl">
           {t("sec.categories")}
         </h2>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {CATEGORIES.map(({ key, slug, icon: Icon, href }) => {
             const title = t(key);
             return (
@@ -61,14 +67,13 @@ export function Categories() {
                     className="size-full object-cover transition duration-300 group-hover:scale-105"
                   />
                 </div>
-                <div className="flex items-center justify-between gap-2 p-4">
-                  <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-brand-accent/10 text-brand-accent">
+                <div className="flex flex-col items-center gap-2 p-3 text-center">
+                  <span className="flex size-9 items-center justify-center rounded-lg bg-brand-accent/10 text-brand-accent">
                     <Icon className="size-4" />
                   </span>
-                  <span className="flex-1 text-sm font-semibold leading-tight text-foreground">
+                  <span className="text-xs font-semibold leading-tight text-foreground [overflow-wrap:anywhere] sm:text-sm">
                     {title}
                   </span>
-                  <ArrowRight className="size-4 shrink-0 text-muted-foreground transition group-hover:translate-x-0.5 group-hover:text-brand-accent" />
                 </div>
               </Link>
             );

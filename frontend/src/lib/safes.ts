@@ -7,10 +7,13 @@ export type Safe = {
   model: string;
   spec: string;
   fireproof: boolean;
+  gunSafe: boolean;
   fireMinutes: number | null;
   outerSize: string;
   innerSize: string;
   volume: string;
+  wallThickness: string;
+  doorThickness: string;
   features: string;
   weight: string;
   country: string;

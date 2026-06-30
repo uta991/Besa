@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Flame, ArrowRight, Vault, SlidersHorizontal } from "lucide-react";
+import { Flame, Target, ArrowRight, Vault, SlidersHorizontal } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n";
 import {
@@ -20,6 +20,7 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
     p == null ? t("list.priceOnRequest") : `₾${p.toLocaleString("en-US")}`;
   const [brands, setBrands] = useState<Set<string>>(new Set());
   const [fireproofOnly, setFireproofOnly] = useState(false);
+  const [gunSafeOnly, setGunSafeOnly] = useState(false);
   const [maxPrice, setMaxPrice] = useState(SAFE_PRICE_MAX);
   const [openFilters, setOpenFilters] = useState(false);
   const [restored, setRestored] = useState(false);
@@ -33,8 +34,16 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
         if (Array.isArray(s.brands)) setBrands(new Set(s.brands));
         if (typeof s.fireproofOnly === "boolean")
           setFireproofOnly(s.fireproofOnly);
+        if (typeof s.gunSafeOnly === "boolean") setGunSafeOnly(s.gunSafeOnly);
         if (typeof s.maxPrice === "number") setMaxPrice(s.maxPrice);
       }
+    } catch {
+      /* ignore */
+    }
+    // the landing "gun safe" category links here with ?cat=gun
+    try {
+      if (new URLSearchParams(window.location.search).get("cat") === "gun")
+        setGunSafeOnly(true);
     } catch {
       /* ignore */
     }
@@ -47,21 +56,27 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
     try {
       sessionStorage.setItem(
         STORAGE_KEY,
-        JSON.stringify({ brands: [...brands], fireproofOnly, maxPrice }),
+        JSON.stringify({
+          brands: [...brands],
+          fireproofOnly,
+          gunSafeOnly,
+          maxPrice,
+        }),
       );
     } catch {
       /* ignore */
     }
-  }, [brands, fireproofOnly, maxPrice, restored]);
+  }, [brands, fireproofOnly, gunSafeOnly, maxPrice, restored]);
 
   const filtered = useMemo(() => {
     return products.filter((p) => {
       if (brands.size > 0 && !brands.has(p.brand)) return false;
       if (fireproofOnly && !p.fireproof) return false;
+      if (gunSafeOnly && !p.gunSafe) return false;
       if (p.price != null && p.price > maxPrice) return false;
       return true;
     });
-  }, [products, brands, fireproofOnly, maxPrice]);
+  }, [products, brands, fireproofOnly, gunSafeOnly, maxPrice]);
 
   function toggleBrand(b: string) {
     setBrands((prev) => {
@@ -75,6 +90,7 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
   function reset() {
     setBrands(new Set());
     setFireproofOnly(false);
+    setGunSafeOnly(false);
     setMaxPrice(SAFE_PRICE_MAX);
   }
 
@@ -129,16 +145,28 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
         <h3 className="mb-3 text-sm font-semibold text-brand">
           {t("filter.category")}
         </h3>
-        <label className="flex cursor-pointer items-center gap-2.5 text-sm">
-          <input
-            type="checkbox"
-            checked={fireproofOnly}
-            onChange={(e) => setFireproofOnly(e.target.checked)}
-            className="size-4 accent-brand-accent"
-          />
-          <Flame className="size-4 text-brand-accent" />
-          {t("feat.fireproof")}
-        </label>
+        <div className="flex flex-col gap-2">
+          <label className="flex cursor-pointer items-center gap-2.5 text-sm">
+            <input
+              type="checkbox"
+              checked={fireproofOnly}
+              onChange={(e) => setFireproofOnly(e.target.checked)}
+              className="size-4 accent-brand-accent"
+            />
+            <Flame className="size-4 text-brand-accent" />
+            {t("feat.fireproof")}
+          </label>
+          <label className="flex cursor-pointer items-center gap-2.5 text-sm">
+            <input
+              type="checkbox"
+              checked={gunSafeOnly}
+              onChange={(e) => setGunSafeOnly(e.target.checked)}
+              className="size-4 accent-brand-accent"
+            />
+            <Target className="size-4 text-brand-accent" />
+            {t("cat.gunSafes")}
+          </label>
+        </div>
       </div>
 
       <button
@@ -230,6 +258,12 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
                       {p.fireMinutes
                         ? ` · ${p.fireMinutes} ${t("unit.min")}`
                         : ""}
+                    </span>
+                  )}
+                  {p.gunSafe && (
+                    <span className="inline-flex w-fit items-center gap-1 rounded-md bg-brand-accent/10 px-2 py-0.5 text-[11px] font-medium text-brand-accent">
+                      <Target className="size-3" />
+                      {t("cat.gunSafes")}
                     </span>
                   )}
                   <div className="mt-auto flex items-center justify-between pt-2">

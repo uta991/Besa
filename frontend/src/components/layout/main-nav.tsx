@@ -11,6 +11,7 @@ import {
   Puzzle,
   KeyRound,
   Key,
+  Target,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -31,6 +32,7 @@ const CATEGORIES: { key: string; href: string; icon: LucideIcon }[] = [
   { key: "cat.accessories", href: "/#categories", icon: Puzzle },
   { key: "cat.closers", href: "/#categories", icon: KeyRound },
   { key: "cat.cylinders", href: "/#categories", icon: Key },
+  { key: "cat.gunSafes", href: "/safes?cat=gun", icon: Target },
 ];
 
 const linkBase =

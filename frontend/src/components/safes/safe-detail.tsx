@@ -18,6 +18,8 @@ export function SafeDetail({ safe }: { safe: Safe }) {
     { label: t("spec.outer"), value: tValue(safe.outerSize, locale) },
     { label: t("spec.inner"), value: tValue(safe.innerSize, locale) },
     { label: t("spec.volume"), value: tValue(safe.volume, locale) },
+    { label: t("spec.wall"), value: tValue(safe.wallThickness, locale) },
+    { label: t("spec.door"), value: tValue(safe.doorThickness, locale) },
     { label: t("spec.features"), value: tValue(safe.features, locale) },
     { label: t("spec.weight"), value: tValue(safe.weight, locale) },
     { label: t("spec.country"), value: tValue(safe.country, locale) },

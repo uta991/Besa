@@ -6,7 +6,9 @@ export function BrandStrip({ colored = false }: { colored?: boolean }) {
     <section id="brands" className="border-b bg-white">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-5">
-          {BRANDS.map((brand) => (
+          {[...BRANDS]
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((brand) => (
             <Link
               key={brand.slug}
               href={`/brands/${brand.slug}`}

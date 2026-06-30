@@ -21,7 +21,7 @@ export const BRANDS: Brand[] = [
   { file: "kinq", name: "King", slug: "kinq" },
   { file: "doganlar", name: "Doganlar", slug: "doganlar" },
   { file: "adams", name: "Adams", slug: "adams" },
-  { file: "bordonga", name: "Bordogna", slug: "bordonga" },
+  { file: "bordonga", name: "Bordogna", slug: "bordogna-casseforti" },
   { file: "plast", name: "Plast", slug: "plast" },
   { file: "freud", name: "Freud", slug: "freud" },
   { file: "duranteadesivi", name: "Durante & Adesivi", slug: "duranteadesivi" },
