@@ -21,7 +21,7 @@ type Category = {
 };
 
 const CATEGORIES: Category[] = [
-  { key: "cat.locks", slug: "locks", icon: Lock, href: "#" },
+  { key: "cat.locks", slug: "locks", icon: Lock, href: "/locks" },
   { key: "cat.handles", slug: "handles", icon: DoorOpen, href: "#" },
   { key: "cat.safes", slug: "safes", icon: Vault, href: "/safes" },
   {

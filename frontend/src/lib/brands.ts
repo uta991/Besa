@@ -8,7 +8,7 @@ export const BRANDS: Brand[] = [
   { file: "agb", name: "AGB", slug: "agb" },
   { file: "cisa", name: "CISA", slug: "cisa" },
   { file: "mottura", name: "Mottura", slug: "mottura" },
-  { file: "guradian", name: "Guardian", slug: "guradian" },
+  { file: "guradian", name: "Guardian", slug: "guardian" },
   { file: "philips", name: "Philips", slug: "philips" },
   { file: "kale", name: "Kale", slug: "kale" },
   { file: "apecs", name: "Apecs", slug: "apecs" },

@@ -25,7 +25,7 @@ const NAV = [
 ];
 
 const CATEGORIES: { key: string; href: string; icon: LucideIcon }[] = [
-  { key: "cat.locks", href: "/#categories", icon: Lock },
+  { key: "cat.locks", href: "/locks", icon: Lock },
   { key: "cat.handles", href: "/#categories", icon: DoorOpen },
   { key: "cat.safes", href: "/safes", icon: Vault },
   { key: "cat.smartLocks", href: "/smart-locks", icon: ScanFace },

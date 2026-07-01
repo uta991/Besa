@@ -4,42 +4,38 @@ import { SiteFooter } from "@/components/layout/site-footer";
 import { CatalogHeading } from "@/components/layout/catalog-heading";
 import {
   ProductsBrowser,
-  type CatalogItem,
   type CategoryLink,
 } from "@/components/products/products-browser";
-import { SAFES } from "@/lib/safes";
-import { SMART_LOCKS } from "@/lib/smart-locks";
+import { CATALOG } from "@/lib/catalog";
 
 export const metadata: Metadata = {
   title: "პროდუქცია",
-  description: "ბესას სრული პროდუქცია — სეიფები, ჭკვიანი საკეტები და სხვა.",
+  description: "ბესას სრული პროდუქცია — საკეტები, სეიფები, ჭკვიანი საკეტები და სხვა.",
 };
 
-const items: CatalogItem[] = [
-  ...SAFES.map((s) => ({
-    name: s.model,
-    brand: s.brand,
-    price: s.price,
-    image: s.image,
-    imgFit: s.imgWide ? "contain" : "cover",
-    categoryKey: "cat.safes",
-    href: `/safes/${s.slug}`,
-  })),
-  ...SMART_LOCKS.map((s) => ({
-    name: s.model,
-    brand: s.brand,
-    price: s.price,
-    image: s.images[0] ?? null,
-    imgFit: s.imgFit[0] ?? "cover",
-    categoryKey: "cat.smartLocks",
-    href: `/smart-locks/${s.slug}`,
-  })),
+const HREF: Record<string, string> = {
+  "cat.locks": "/locks",
+  "cat.safes": "/safes",
+  "cat.gunSafes": "/safes?cat=gun",
+  "cat.smartLocks": "/smart-locks",
+  "cat.closers": "/closers",
+};
+const ORDER = [
+  "cat.locks",
+  "cat.safes",
+  "cat.gunSafes",
+  "cat.smartLocks",
+  "cat.closers",
 ];
 
-const categories: CategoryLink[] = [
-  { nameKey: "cat.safes", count: SAFES.length, href: "/safes" },
-  { nameKey: "cat.smartLocks", count: SMART_LOCKS.length, href: "/smart-locks" },
-];
+const counts: Record<string, number> = {};
+for (const it of CATALOG) counts[it.categoryKey] = (counts[it.categoryKey] ?? 0) + 1;
+
+const categories: CategoryLink[] = ORDER.filter((k) => counts[k]).map((k) => ({
+  nameKey: k,
+  count: counts[k],
+  href: HREF[k] ?? "#",
+}));
 
 export default function ProductsPage() {
   return (
@@ -50,7 +46,7 @@ export default function ProductsPage() {
 
         <div className="bg-muted/40">
           <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-            <ProductsBrowser items={items} categories={categories} />
+            <ProductsBrowser items={CATALOG} categories={categories} />
           </div>
         </div>
       </main>
