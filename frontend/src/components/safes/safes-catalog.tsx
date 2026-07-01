@@ -284,21 +284,28 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
                   <p className="font-semibold leading-tight text-foreground">
                     {p.model}
                   </p>
-                  {p.fireproof && (
-                    <span className="inline-flex w-fit items-center gap-1 rounded-md bg-[#f4534d]/10 px-2 py-0.5 text-[11px] font-medium text-[#f4534d]">
-                      <Flame className="size-3" />
-                      {t("feat.fireproof")}
-                      {p.fireMinutes
-                        ? ` · ${p.fireMinutes} ${t("unit.min")}`
-                        : ""}
-                    </span>
-                  )}
-                  {p.gunSafe && (
-                    <span className="inline-flex w-fit items-center gap-1 rounded-md bg-brand-accent/10 px-2 py-0.5 text-[11px] font-medium text-brand-accent">
-                      <Target className="size-3" />
-                      {t("cat.gunSafes")}
-                    </span>
-                  )}
+                  {(() => {
+                    const cat = SAFE_CATEGORIES.find((c) => c.match(p));
+                    if (!cat) return null;
+                    const Icon = cat.icon;
+                    const isFire = cat.key === "feat.fireproof";
+                    return (
+                      <span
+                        className={cn(
+                          "inline-flex w-fit items-center gap-1 rounded-md px-2 py-0.5 text-[11px] font-medium",
+                          isFire
+                            ? "bg-[#f4534d]/10 text-[#f4534d]"
+                            : "bg-brand-accent/10 text-brand-accent",
+                        )}
+                      >
+                        <Icon className="size-3" />
+                        {t(cat.key)}
+                        {isFire && p.fireMinutes
+                          ? ` · ${p.fireMinutes} ${t("unit.min")}`
+                          : ""}
+                      </span>
+                    );
+                  })()}
                   <div className="mt-auto flex items-center justify-between pt-2">
                     <span className="text-lg font-bold text-brand">
                       {priceLabel(p.price)}

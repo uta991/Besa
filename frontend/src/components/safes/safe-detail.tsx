@@ -1,7 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Flame, Vault } from "lucide-react";
+import {
+  ArrowLeft,
+  Flame,
+  Target,
+  Building2,
+  KeyRound,
+  BedDouble,
+  Vault,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useT, useLocale, tValue } from "@/lib/i18n";
 import { ZoomImage } from "@/components/safes/zoom-image";
@@ -25,6 +33,34 @@ export function SafeDetail({ safe }: { safe: Safe }) {
     { label: t("spec.weight"), value: tValue(safe.weight, locale) },
     { label: t("spec.country"), value: tValue(safe.country, locale) },
   ].filter((s) => s.value);
+
+  // spec type shown as a chip under the title (like the fireproof badge)
+  const isWall = /კედელში/.test(safe.spec);
+  const isKey = /გასაღების შესან/.test(safe.spec);
+  const isHotel = /სასტუმრო/.test(safe.spec);
+  const specKey = safe.fireproof
+    ? "feat.fireproof"
+    : safe.gunSafe
+      ? "cat.gunSafes"
+      : isWall
+        ? "safeType.wall"
+        : isKey
+          ? "safeType.key"
+          : isHotel
+            ? "safeType.hotel"
+            : null;
+  const SpecIcon = safe.fireproof
+    ? Flame
+    : safe.gunSafe
+      ? Target
+      : isWall
+        ? Building2
+        : isKey
+          ? KeyRound
+          : isHotel
+            ? BedDouble
+            : Vault;
+  const specLabel = specKey ? t(specKey) : tValue(safe.spec, locale);
 
   return (
     <>
@@ -54,11 +90,20 @@ export function SafeDetail({ safe }: { safe: Safe }) {
           <h1 className="mt-1 text-3xl font-bold tracking-tight text-brand">
             {safe.model}
           </h1>
-          {safe.fireproof && (
-            <span className="mt-3 inline-flex w-fit items-center gap-1.5 rounded-full bg-[#f4534d]/10 px-3 py-1 text-xs font-medium text-[#f4534d]">
-              <Flame className="size-3.5" />
-              {t("feat.fireproof")}
-              {safe.fireMinutes ? ` · ${safe.fireMinutes} ${t("unit.min")}` : ""}
+          {safe.spec && (
+            <span
+              className={cn(
+                "mt-3 inline-flex w-fit items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium",
+                safe.fireproof
+                  ? "bg-[#f4534d]/10 text-[#f4534d]"
+                  : "bg-brand-accent/10 text-brand-accent",
+              )}
+            >
+              <SpecIcon className="size-3.5" />
+              {specLabel}
+              {safe.fireproof && safe.fireMinutes
+                ? ` · ${safe.fireMinutes} ${t("unit.min")}`
+                : ""}
             </span>
           )}
           <p className="mt-4 text-3xl font-bold text-foreground">
