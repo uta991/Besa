@@ -189,69 +189,6 @@
     "imgWide": false
   },
   {
-    "slug": "guardian-15-12",
-    "code": "15.12",
-    "brand": "GUARDIAN",
-    "model": "10.11",
-    "lockType": "locktype.handle",
-    "specs": [
-      {
-        "k": "spec.mechType",
-        "v": "კომბინირებული"
-      },
-      {
-        "k": "spec.lockType",
-        "v": "სახელურიანი"
-      },
-      {
-        "k": "spec.mountType",
-        "v": "ჩასაშენებელი"
-      },
-      {
-        "k": "spec.securityClass",
-        "v": "2"
-      },
-      {
-        "k": "spec.plateCount",
-        "v": "6"
-      },
-      {
-        "k": "spec.combos",
-        "v": "46 000-ზე მეტი"
-      },
-      {
-        "k": "spec.turns",
-        "v": "2"
-      },
-      {
-        "k": "spec.doorThickness",
-        "v": "30-60მმ"
-      },
-      {
-        "k": "spec.dimensions",
-        "v": "290*81.5*18.5 მმ"
-      },
-      {
-        "k": "spec.weight",
-        "v": "1.44 კგ"
-      },
-      {
-        "k": "spec.boltDiameter",
-        "v": "13.5"
-      },
-      {
-        "k": "spec.keyCount",
-        "v": "5 ც"
-      }
-    ],
-    "price": null,
-    "images": [
-      "/images/locks/guardian-15-12-1.jpg",
-      "/images/locks/guardian-15-12-2.jpg"
-    ],
-    "imgWide": false
-  },
-  {
     "slug": "guardian-100-11t",
     "code": "100.11T",
     "brand": "GUARDIAN",
@@ -318,7 +255,7 @@
     "slug": "guardian-102-11t",
     "code": "102.11T",
     "brand": "GUARDIAN",
-    "model": "100.11T",
+    "model": "102.11T",
     "lockType": "locktype.handle",
     "specs": [
       {
@@ -416,7 +353,7 @@
     "slug": "guardian-12-11",
     "code": "12.11",
     "brand": "GUARDIAN",
-    "model": "12.01",
+    "model": "12.11",
     "lockType": "locktype.handle",
     "specs": [
       {
@@ -456,6 +393,69 @@
     "images": [
       "/images/locks/guardian-12-11-1.jpg",
       "/images/locks/guardian-12-11-2.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "guardian-15-12",
+    "code": "15.12",
+    "brand": "GUARDIAN",
+    "model": "15.12",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.securityClass",
+        "v": "2"
+      },
+      {
+        "k": "spec.plateCount",
+        "v": "6"
+      },
+      {
+        "k": "spec.combos",
+        "v": "46 000-ზე მეტი"
+      },
+      {
+        "k": "spec.turns",
+        "v": "2"
+      },
+      {
+        "k": "spec.doorThickness",
+        "v": "30-60მმ"
+      },
+      {
+        "k": "spec.dimensions",
+        "v": "290*81.5*18.5 მმ"
+      },
+      {
+        "k": "spec.weight",
+        "v": "1.44 კგ"
+      },
+      {
+        "k": "spec.boltDiameter",
+        "v": "13.5"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/guardian-15-12-1.jpg",
+      "/images/locks/guardian-15-12-2.jpg"
     ],
     "imgWide": false
   },
@@ -881,57 +881,6 @@
     "imgWide": false
   },
   {
-    "slug": "guardian-32-01",
-    "code": "32.01",
-    "brand": "GUARDIAN",
-    "model": "30.01",
-    "lockType": "locktype.additional",
-    "specs": [
-      {
-        "k": "spec.mechType",
-        "v": "ცილინდრული"
-      },
-      {
-        "k": "spec.lockType",
-        "v": "დამატებითი"
-      },
-      {
-        "k": "spec.mountType",
-        "v": "ჩასაშენებელი"
-      },
-      {
-        "k": "spec.securityClass",
-        "v": "4"
-      },
-      {
-        "k": "spec.turns",
-        "v": "2"
-      },
-      {
-        "k": "spec.doorThickness",
-        "v": "40+ მმ"
-      },
-      {
-        "k": "spec.dimensions",
-        "v": "104*97,5*22 მმ"
-      },
-      {
-        "k": "spec.weight",
-        "v": "0.87 კგ"
-      },
-      {
-        "k": "spec.boltDiameter",
-        "v": "15.8"
-      }
-    ],
-    "price": null,
-    "images": [
-      "/images/locks/guardian-32-01-1.jpg",
-      "/images/locks/guardian-32-01-2.jpg"
-    ],
-    "imgWide": false
-  },
-  {
     "slug": "guardian-30-04",
     "code": "30.04",
     "brand": "GUARDIAN",
@@ -1054,6 +1003,57 @@
     "images": [
       "/images/locks/guardian-30-12-1.jpg",
       "/images/locks/guardian-30-12-2.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "guardian-32-01",
+    "code": "32.01",
+    "brand": "GUARDIAN",
+    "model": "32.01",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.securityClass",
+        "v": "4"
+      },
+      {
+        "k": "spec.turns",
+        "v": "2"
+      },
+      {
+        "k": "spec.doorThickness",
+        "v": "40+ მმ"
+      },
+      {
+        "k": "spec.dimensions",
+        "v": "104*97,5*22 მმ"
+      },
+      {
+        "k": "spec.weight",
+        "v": "0.87 კგ"
+      },
+      {
+        "k": "spec.boltDiameter",
+        "v": "15.8"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/guardian-32-01-1.jpg",
+      "/images/locks/guardian-32-01-2.jpg"
     ],
     "imgWide": false
   },
@@ -1337,69 +1337,6 @@
     "imgWide": false
   },
   {
-    "slug": "guardian-50-15",
-    "code": "50.15",
-    "brand": "GUARDIAN",
-    "model": "40.11",
-    "lockType": "locktype.handle",
-    "specs": [
-      {
-        "k": "spec.mechType",
-        "v": "პეპელა"
-      },
-      {
-        "k": "spec.lockType",
-        "v": "სახელურიანი"
-      },
-      {
-        "k": "spec.mountType",
-        "v": "ჩასაშენებელი"
-      },
-      {
-        "k": "spec.securityClass",
-        "v": "4"
-      },
-      {
-        "k": "spec.plateCount",
-        "v": "8"
-      },
-      {
-        "k": "spec.combos",
-        "v": "1 600 000-ზე მეტი"
-      },
-      {
-        "k": "spec.turns",
-        "v": "2"
-      },
-      {
-        "k": "spec.doorThickness",
-        "v": "40-75 მმ"
-      },
-      {
-        "k": "spec.dimensions",
-        "v": "138*97.5*26 მმ"
-      },
-      {
-        "k": "spec.weight",
-        "v": "1.8 კგ"
-      },
-      {
-        "k": "spec.boltDiameter",
-        "v": "15.8 მმ"
-      },
-      {
-        "k": "spec.keyCount",
-        "v": "5 ც"
-      }
-    ],
-    "price": null,
-    "images": [
-      "/images/locks/guardian-50-15-1.jpg",
-      "/images/locks/guardian-50-15-2.jpg"
-    ],
-    "imgWide": false
-  },
-  {
     "slug": "guardian-50-01",
     "code": "50.01",
     "brand": "GUARDIAN",
@@ -1522,6 +1459,69 @@
     "images": [
       "/images/locks/guardian-50-11-1.jpg",
       "/images/locks/guardian-50-11-2.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "guardian-50-15",
+    "code": "50.15",
+    "brand": "GUARDIAN",
+    "model": "50.15",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.securityClass",
+        "v": "4"
+      },
+      {
+        "k": "spec.plateCount",
+        "v": "8"
+      },
+      {
+        "k": "spec.combos",
+        "v": "1 600 000-ზე მეტი"
+      },
+      {
+        "k": "spec.turns",
+        "v": "2"
+      },
+      {
+        "k": "spec.doorThickness",
+        "v": "40-75 მმ"
+      },
+      {
+        "k": "spec.dimensions",
+        "v": "138*97.5*26 მმ"
+      },
+      {
+        "k": "spec.weight",
+        "v": "1.8 კგ"
+      },
+      {
+        "k": "spec.boltDiameter",
+        "v": "15.8 მმ"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/guardian-50-15-1.jpg",
+      "/images/locks/guardian-50-15-2.jpg"
     ],
     "imgWide": false
   },
@@ -1707,10 +1707,61 @@
     "imgWide": false
   },
   {
+    "slug": "guardian-72-16zt",
+    "code": "72.16ZT",
+    "brand": "GUARDIAN",
+    "model": "72.16ZT",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.securityClass",
+        "v": "4"
+      },
+      {
+        "k": "spec.turns",
+        "v": "2"
+      },
+      {
+        "k": "spec.doorThickness",
+        "v": "50-85მმ"
+      },
+      {
+        "k": "spec.dimensions",
+        "v": "203*129*32 მმ"
+      },
+      {
+        "k": "spec.weight",
+        "v": "2.8 კგ"
+      },
+      {
+        "k": "spec.boltDiameter",
+        "v": "18"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/guardian-72-16zt-1.jpg",
+      "/images/locks/guardian-72-16zt-2.jpg"
+    ],
+    "imgWide": false
+  },
+  {
     "slug": "guardian-75-14t",
     "code": "75.14T",
     "brand": "GUARDIAN",
-    "model": "71.14T",
+    "model": "75.14T",
     "lockType": "locktype.handle",
     "specs": [
       {
@@ -1777,7 +1828,7 @@
     "slug": "guardian-75-16zt",
     "code": "75.16ZT",
     "brand": "GUARDIAN",
-    "model": "71.14T",
+    "model": "75.16ZT",
     "lockType": "locktype.handle",
     "specs": [
       {
@@ -1822,54 +1873,6 @@
       "/images/locks/guardian-75-16zt-1.jpg",
       "/images/locks/guardian-75-16zt-2.jpg"
     ],
-    "imgWide": false
-  },
-  {
-    "slug": "guardian-72-16zt",
-    "code": "72.16ZT",
-    "brand": "GUARDIAN",
-    "model": "72.16ZT",
-    "lockType": "locktype.handle",
-    "specs": [
-      {
-        "k": "spec.mechType",
-        "v": "ცილინდრული"
-      },
-      {
-        "k": "spec.lockType",
-        "v": "სახელურიანი"
-      },
-      {
-        "k": "spec.mountType",
-        "v": "ჩასაშენებელი"
-      },
-      {
-        "k": "spec.securityClass",
-        "v": "4"
-      },
-      {
-        "k": "spec.turns",
-        "v": "2"
-      },
-      {
-        "k": "spec.doorThickness",
-        "v": "50-85მმ"
-      },
-      {
-        "k": "spec.dimensions",
-        "v": "203*129*32 მმ"
-      },
-      {
-        "k": "spec.weight",
-        "v": "2.8 კგ"
-      },
-      {
-        "k": "spec.boltDiameter",
-        "v": "18"
-      }
-    ],
-    "price": null,
-    "images": [],
     "imgWide": false
   },
   {
@@ -2202,33 +2205,6 @@
     "imgWide": false
   },
   {
-    "slug": "guardian-profi-1p",
-    "code": "PROFI 1P",
-    "brand": "GUARDIAN",
-    "model": "PROFI 1 P",
-    "lockType": "locktype.additional",
-    "specs": [
-      {
-        "k": "spec.lockType",
-        "v": "დამატებითი ბურთულიანი"
-      },
-      {
-        "k": "spec.mountType",
-        "v": "ჩასაშენებელი"
-      },
-      {
-        "k": "spec.frontPlate",
-        "v": "24 მმ"
-      }
-    ],
-    "price": null,
-    "images": [
-      "/images/locks/guardian-profi-1p-1.jpg",
-      "/images/locks/guardian-profi-1p-2.jpg"
-    ],
-    "imgWide": false
-  },
-  {
     "slug": "guardian-profi-11",
     "code": "PROFI 11",
     "brand": "GUARDIAN",
@@ -2295,6 +2271,33 @@
     "images": [
       "/images/locks/guardian-profi-11p-1.jpg",
       "/images/locks/guardian-profi-11p-2.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "guardian-profi-1p",
+    "code": "PROFI 1P",
+    "brand": "GUARDIAN",
+    "model": "PROFI 1P",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი ბურთულიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.frontPlate",
+        "v": "24 მმ"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/guardian-profi-1p-1.jpg",
+      "/images/locks/guardian-profi-1p-2.jpg"
     ],
     "imgWide": false
   }

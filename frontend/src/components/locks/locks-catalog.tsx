@@ -6,7 +6,6 @@ import { ArrowRight, Lock, SlidersHorizontal } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n";
 import { type Lock as LockT, LOCK_BRANDS, LOCK_TYPES } from "@/lib/locks";
-import { CyclingImage } from "./cycling-image";
 
 const STORAGE_KEY = "locks-filters";
 
@@ -174,10 +173,14 @@ export function LocksCatalog({ products }: { products: LockT[] }) {
               >
                 <div className="relative aspect-square overflow-hidden bg-muted">
                   {p.images[0] ? (
-                    <CyclingImage
-                      images={p.images}
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={p.images[0]}
                       alt={p.model}
-                      imgFit={p.imgWide ? "contain" : "cover"}
+                      className={cn(
+                        "size-full transition duration-300 group-hover:scale-105",
+                        p.imgWide ? "object-contain p-2" : "object-cover",
+                      )}
                     />
                   ) : (
                     <div className="flex size-full items-center justify-center bg-gradient-to-br from-brand/10 via-muted to-brand-accent/10">
