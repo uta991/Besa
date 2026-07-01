@@ -5,12 +5,14 @@ import Link from "next/link";
 import { ArrowRight, Lock, SlidersHorizontal } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n";
-import { type Lock as LockT, LOCK_TYPES } from "@/lib/locks";
+import { type Lock as LockT, LOCK_BRANDS, LOCK_TYPES } from "@/lib/locks";
+import { CyclingImage } from "./cycling-image";
 
 const STORAGE_KEY = "locks-filters";
 
 export function LocksCatalog({ products }: { products: LockT[] }) {
   const t = useT();
+  const [brands, setBrands] = useState<Set<string>>(new Set());
   const [types, setTypes] = useState<Set<string>>(new Set());
   const [openFilters, setOpenFilters] = useState(false);
   const [restored, setRestored] = useState(false);
@@ -20,6 +22,7 @@ export function LocksCatalog({ products }: { products: LockT[] }) {
       const raw = sessionStorage.getItem(STORAGE_KEY);
       if (raw) {
         const s = JSON.parse(raw);
+        if (Array.isArray(s.brands)) setBrands(new Set(s.brands));
         if (Array.isArray(s.types)) setTypes(new Set(s.types));
       }
     } catch {
@@ -31,55 +34,92 @@ export function LocksCatalog({ products }: { products: LockT[] }) {
   useEffect(() => {
     if (!restored) return;
     try {
-      sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ types: [...types] }));
+      sessionStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({ brands: [...brands], types: [...types] }),
+      );
     } catch {
       /* ignore */
     }
-  }, [types, restored]);
+  }, [brands, types, restored]);
 
   const filtered = useMemo(
     () =>
-      types.size === 0
-        ? products
-        : products.filter((p) => types.has(p.lockType)),
-    [products, types],
+      products.filter((p) => {
+        if (brands.size > 0 && !brands.has(p.brand)) return false;
+        if (types.size > 0 && !types.has(p.lockType)) return false;
+        return true;
+      }),
+    [products, brands, types],
   );
 
-  function toggleType(v: string) {
-    setTypes((prev) => {
-      const next = new Set(prev);
-      if (next.has(v)) next.delete(v);
-      else next.add(v);
-      return next;
-    });
+  const makeToggle =
+    (setter: React.Dispatch<React.SetStateAction<Set<string>>>) =>
+    (v: string) =>
+      setter((prev) => {
+        const next = new Set(prev);
+        if (next.has(v)) next.delete(v);
+        else next.add(v);
+        return next;
+      });
+  const toggleBrand = makeToggle(setBrands);
+  const toggleType = makeToggle(setTypes);
+
+  function reset() {
+    setBrands(new Set());
+    setTypes(new Set());
   }
+
+  const checkboxGroup = (
+    title: string,
+    items: { key: string; label: string; checked: boolean; onToggle: () => void }[],
+  ) => (
+    <div>
+      <h3 className="mb-3 text-sm font-semibold text-brand">{title}</h3>
+      <div className="flex flex-col gap-2">
+        {items.map((it) => (
+          <label
+            key={it.key}
+            className="flex cursor-pointer items-center gap-2.5 text-sm"
+          >
+            <input
+              type="checkbox"
+              checked={it.checked}
+              onChange={it.onToggle}
+              className="size-4 accent-brand-accent"
+            />
+            {it.label}
+          </label>
+        ))}
+      </div>
+    </div>
+  );
 
   const sidebar = (
     <div className="flex flex-col gap-7">
-      <div>
-        <h3 className="mb-3 text-sm font-semibold text-brand">
-          {t("spec.lockType")}
-        </h3>
-        <div className="flex flex-col gap-2">
-          {LOCK_TYPES.map((lt) => (
-            <label
-              key={lt}
-              className="flex cursor-pointer items-center gap-2.5 text-sm"
-            >
-              <input
-                type="checkbox"
-                checked={types.has(lt)}
-                onChange={() => toggleType(lt)}
-                className="size-4 accent-brand-accent"
-              />
-              {t(lt)}
-            </label>
-          ))}
-        </div>
-      </div>
+      {checkboxGroup(
+        t("filter.brands"),
+        LOCK_BRANDS.map((b) => ({
+          key: b,
+          label: b,
+          checked: brands.has(b),
+          onToggle: () => toggleBrand(b),
+        })),
+      )}
+
+      {checkboxGroup(
+        t("spec.lockType"),
+        LOCK_TYPES.map((lt) => ({
+          key: lt,
+          label: t(lt),
+          checked: types.has(lt),
+          onToggle: () => toggleType(lt),
+        })),
+      )}
+
       <button
         type="button"
-        onClick={() => setTypes(new Set())}
+        onClick={reset}
         className="self-start text-xs font-medium text-brand-accent hover:underline"
       >
         {t("filter.clear")}
@@ -134,14 +174,10 @@ export function LocksCatalog({ products }: { products: LockT[] }) {
               >
                 <div className="relative aspect-square overflow-hidden bg-muted">
                   {p.images[0] ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={p.images[0]}
+                    <CyclingImage
+                      images={p.images}
                       alt={p.model}
-                      className={cn(
-                        "size-full transition duration-300 group-hover:scale-105",
-                        p.imgWide ? "object-contain p-2" : "object-cover",
-                      )}
+                      imgFit={p.imgWide ? "contain" : "cover"}
                     />
                   ) : (
                     <div className="flex size-full items-center justify-center bg-gradient-to-br from-brand/10 via-muted to-brand-accent/10">
