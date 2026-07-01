@@ -1,5 +1,6 @@
 import { SAFES } from "./safes";
 import { SMART_LOCKS } from "./smart-locks";
+import { CLOSERS } from "./closers";
 
 export type CatalogItem = {
   name: string;
@@ -39,6 +40,16 @@ export const CATALOG: CatalogItem[] = [
     image: s.images[0] ?? null,
     imgFit: s.imgFit[0] ?? "cover",
     href: `/smart-locks/${s.slug}`,
+  })),
+  ...CLOSERS.map((s) => ({
+    name: [s.model, s.color].filter(Boolean).join(" · "),
+    brand: s.brand,
+    brandSlug: brandSlug(s.brand),
+    categoryKey: "cat.closers",
+    price: s.price,
+    image: s.image,
+    imgFit: s.imgWide ? "contain" : "cover",
+    href: `/closers/${s.slug}`,
   })),
 ];
 

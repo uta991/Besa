@@ -31,7 +31,7 @@ const CATEGORIES: Category[] = [
     href: "/smart-locks",
   },
   { key: "cat.accessories", slug: "accessories", icon: Puzzle, href: "#" },
-  { key: "cat.closers", slug: "shveicari", icon: KeyRound, href: "#" },
+  { key: "cat.closers", slug: "shveicari", icon: KeyRound, href: "/closers" },
   { key: "cat.cylinders", slug: "cylinders", icon: Key, href: "#" },
 ];
 
