@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     template: "%s · Besa",
   },
   description: "Besa online platform for browsing products.",
+  icons: {
+    icon: [
+      { url: "/besa-icon.png?v=besa2", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/besa-icon.png?v=besa2",
+    apple: "/besa-icon.png?v=besa2",
+  },
 };
 
 export default function RootLayout({
