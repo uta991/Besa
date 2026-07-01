@@ -2,7 +2,17 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Flame, Target, ArrowRight, Vault, SlidersHorizontal } from "lucide-react";
+import {
+  Flame,
+  Target,
+  Building2,
+  KeyRound,
+  BedDouble,
+  ArrowRight,
+  Vault,
+  SlidersHorizontal,
+  type LucideIcon,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n";
 import {
@@ -14,13 +24,36 @@ import {
 
 const STORAGE_KEY = "safes-filters";
 
+const SAFE_CATEGORIES: {
+  key: string;
+  icon: LucideIcon;
+  match: (p: Safe) => boolean;
+}[] = [
+  { key: "feat.fireproof", icon: Flame, match: (p) => p.fireproof },
+  { key: "cat.gunSafes", icon: Target, match: (p) => p.gunSafe },
+  {
+    key: "safeType.wall",
+    icon: Building2,
+    match: (p) => /კედელში/.test(p.spec),
+  },
+  {
+    key: "safeType.key",
+    icon: KeyRound,
+    match: (p) => /გასაღების შესან/.test(p.spec),
+  },
+  {
+    key: "safeType.hotel",
+    icon: BedDouble,
+    match: (p) => /სასტუმრო/.test(p.spec),
+  },
+];
+
 export function SafesCatalog({ products }: { products: Safe[] }) {
   const t = useT();
   const priceLabel = (p: number | null) =>
     p == null ? t("list.priceOnRequest") : `₾${p.toLocaleString("en-US")}`;
   const [brands, setBrands] = useState<Set<string>>(new Set());
-  const [fireproofOnly, setFireproofOnly] = useState(false);
-  const [gunSafeOnly, setGunSafeOnly] = useState(false);
+  const [categories, setCategories] = useState<Set<string>>(new Set());
   const [maxPrice, setMaxPrice] = useState(SAFE_PRICE_MAX);
   const [openFilters, setOpenFilters] = useState(false);
   const [restored, setRestored] = useState(false);
@@ -32,9 +65,7 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
       if (raw) {
         const s = JSON.parse(raw);
         if (Array.isArray(s.brands)) setBrands(new Set(s.brands));
-        if (typeof s.fireproofOnly === "boolean")
-          setFireproofOnly(s.fireproofOnly);
-        if (typeof s.gunSafeOnly === "boolean") setGunSafeOnly(s.gunSafeOnly);
+        if (Array.isArray(s.categories)) setCategories(new Set(s.categories));
         if (typeof s.maxPrice === "number") setMaxPrice(s.maxPrice);
       }
     } catch {
@@ -43,7 +74,7 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
     // the landing "gun safe" category links here with ?cat=gun
     try {
       if (new URLSearchParams(window.location.search).get("cat") === "gun")
-        setGunSafeOnly(true);
+        setCategories((prev) => new Set(prev).add("cat.gunSafes"));
     } catch {
       /* ignore */
     }
@@ -58,25 +89,24 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
         STORAGE_KEY,
         JSON.stringify({
           brands: [...brands],
-          fireproofOnly,
-          gunSafeOnly,
+          categories: [...categories],
           maxPrice,
         }),
       );
     } catch {
       /* ignore */
     }
-  }, [brands, fireproofOnly, gunSafeOnly, maxPrice, restored]);
+  }, [brands, categories, maxPrice, restored]);
 
   const filtered = useMemo(() => {
+    const selected = SAFE_CATEGORIES.filter((c) => categories.has(c.key));
     return products.filter((p) => {
       if (brands.size > 0 && !brands.has(p.brand)) return false;
-      if (fireproofOnly && !p.fireproof) return false;
-      if (gunSafeOnly && !p.gunSafe) return false;
+      if (selected.length > 0 && !selected.some((c) => c.match(p))) return false;
       if (p.price != null && p.price > maxPrice) return false;
       return true;
     });
-  }, [products, brands, fireproofOnly, gunSafeOnly, maxPrice]);
+  }, [products, brands, categories, maxPrice]);
 
   function toggleBrand(b: string) {
     setBrands((prev) => {
@@ -87,10 +117,18 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
     });
   }
 
+  function toggleCategory(k: string) {
+    setCategories((prev) => {
+      const next = new Set(prev);
+      if (next.has(k)) next.delete(k);
+      else next.add(k);
+      return next;
+    });
+  }
+
   function reset() {
     setBrands(new Set());
-    setFireproofOnly(false);
-    setGunSafeOnly(false);
+    setCategories(new Set());
     setMaxPrice(SAFE_PRICE_MAX);
   }
 
@@ -146,26 +184,21 @@ export function SafesCatalog({ products }: { products: Safe[] }) {
           {t("filter.category")}
         </h3>
         <div className="flex flex-col gap-2">
-          <label className="flex cursor-pointer items-center gap-2.5 text-sm">
-            <input
-              type="checkbox"
-              checked={fireproofOnly}
-              onChange={(e) => setFireproofOnly(e.target.checked)}
-              className="size-4 accent-brand-accent"
-            />
-            <Flame className="size-4 text-brand-accent" />
-            {t("feat.fireproof")}
-          </label>
-          <label className="flex cursor-pointer items-center gap-2.5 text-sm">
-            <input
-              type="checkbox"
-              checked={gunSafeOnly}
-              onChange={(e) => setGunSafeOnly(e.target.checked)}
-              className="size-4 accent-brand-accent"
-            />
-            <Target className="size-4 text-brand-accent" />
-            {t("cat.gunSafes")}
-          </label>
+          {SAFE_CATEGORIES.map(({ key, icon: Icon }) => (
+            <label
+              key={key}
+              className="flex cursor-pointer items-center gap-2.5 text-sm"
+            >
+              <input
+                type="checkbox"
+                checked={categories.has(key)}
+                onChange={() => toggleCategory(key)}
+                className="size-4 accent-brand-accent"
+              />
+              <Icon className="size-4 text-brand-accent" />
+              {t(key)}
+            </label>
+          ))}
         </div>
       </div>
 

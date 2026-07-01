@@ -14,6 +14,7 @@ export type Safe = {
   volume: string;
   wallThickness: string;
   doorThickness: string;
+  material: string;
   features: string;
   weight: string;
   country: string;
