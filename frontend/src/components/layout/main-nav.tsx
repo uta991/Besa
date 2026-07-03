@@ -26,12 +26,12 @@ const NAV = [
 
 const CATEGORIES: { key: string; href: string; icon: LucideIcon }[] = [
   { key: "cat.locks", href: "/locks", icon: Lock },
-  { key: "cat.handles", href: "/#categories", icon: DoorOpen },
+  { key: "cat.handles", href: "/handles", icon: DoorOpen },
   { key: "cat.safes", href: "/safes", icon: Vault },
   { key: "cat.smartLocks", href: "/smart-locks", icon: ScanFace },
   { key: "cat.accessories", href: "/#categories", icon: Puzzle },
   { key: "cat.closers", href: "/closers", icon: KeyRound },
-  { key: "cat.cylinders", href: "/#categories", icon: Key },
+  { key: "cat.cylinders", href: "/cylinders", icon: Key },
   { key: "cat.gunSafes", href: "/safes?cat=gun", icon: Target },
 ];
 

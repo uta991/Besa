@@ -2,6 +2,8 @@ import { SAFES } from "./safes";
 import { SMART_LOCKS } from "./smart-locks";
 import { CLOSERS } from "./closers";
 import { LOCKS } from "./locks";
+import { CYLINDERS } from "./cylinders";
+import { HANDLES } from "./handles";
 
 export type CatalogItem = {
   name: string;
@@ -61,6 +63,26 @@ export const CATALOG: CatalogItem[] = [
     image: s.images[0] ?? null,
     imgFit: s.imgWide ? "contain" : "cover",
     href: `/locks/${s.slug}`,
+  })),
+  ...CYLINDERS.map((s) => ({
+    name: s.model,
+    brand: s.brand,
+    brandSlug: brandSlug(s.brand),
+    categoryKey: "cat.cylinders",
+    price: s.price,
+    image: s.images[0] ?? null,
+    imgFit: s.imgWide ? "contain" : "cover",
+    href: `/cylinders/${s.slug}`,
+  })),
+  ...HANDLES.map((s) => ({
+    name: s.model,
+    brand: s.brand,
+    brandSlug: brandSlug(s.brand),
+    categoryKey: "cat.handles",
+    price: s.price,
+    image: s.images[0] ?? null,
+    imgFit: s.imgWide ? "contain" : "cover",
+    href: `/handles/${s.slug}`,
   })),
 ];
 

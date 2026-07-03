@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "doganlar-bahar-olifka",
+    "code": "BAHAR OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "BAHAR OLIFKA",
+    "baseModel": "BAHAR",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bahar-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bahar-saten",
+    "code": "BAHAR SATEN",
+    "brand": "DOGANLAR",
+    "model": "BAHAR SATEN",
+    "baseModel": "BAHAR",
+    "finish": "SATEN",
+    "color": "SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bahar-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bendon-mat-sari",
+    "code": "BENDON MAT SARI",
+    "brand": "DOGANLAR",
+    "model": "BENDON MAT SARI",
+    "baseModel": "BENDON",
+    "finish": "MAT SARI",
+    "color": "MAT SARI · ოქროსფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bendon-mat-sari-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bendon-mat-siyah",
+    "code": "BENDON MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "BENDON MAT SIYAH",
+    "baseModel": "BENDON",
+    "finish": "MAT SIYAH",
+    "color": "MAT SIYAH · შავი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bendon-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bendon-olifka",
+    "code": "BENDON OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "BENDON OLIFKA",
+    "baseModel": "BENDON",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bendon-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bendon-super-saten",
+    "code": "BENDON SUPER SATEN",
+    "brand": "DOGANLAR",
+    "model": "BENDON SUPER SATEN",
+    "baseModel": "BENDON",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bendon-super-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bont-mat-siyah",
+    "code": "BONT MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "BONT MAT SIYAH",
+    "baseModel": "BONT",
+    "finish": "MAT SIYAH",
+    "color": "MAT SIYAH · შავი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bont-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bont-olifka",
+    "code": "BONT OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "BONT OLIFKA",
+    "baseModel": "BONT",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bont-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bosfor-antik-silver",
+    "code": "BOSFOR ANTIK SILVER",
+    "brand": "DOGANLAR",
+    "model": "BOSFOR ANTIK SILVER",
+    "baseModel": "BOSFOR",
+    "finish": "ANTIK SILVER",
+    "color": "ANTIK SILVER · დაძველება ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bosfor-antik-silver-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-bosfor-olifka",
+    "code": "BOSFOR OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "BOSFOR OLIFKA",
+    "baseModel": "BOSFOR",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-bosfor-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-elif-saten-nikel",
+    "code": "ELIF SATEN NIKEL",
+    "brand": "DOGANLAR",
+    "model": "ELIF SATEN NIKEL",
+    "baseModel": "ELIF",
+    "finish": "SATEN NIKEL",
+    "color": "SATEN NIKEL · ვერცხლისფერი პრიალა",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-elif-saten-nikel-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-gurz-antik-silver",
+    "code": "GURZ ANTIK SILVER",
+    "brand": "DOGANLAR",
+    "model": "GURZ ANTIK SILVER",
+    "baseModel": "GURZ",
+    "finish": "ANTIK SILVER",
+    "color": "ANTIK SILVER · ვერცხლისფერი დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-gurz-antik-silver-1.jpg"
+    ],
+    "imgWide": true
+  },
+  {
+    "slug": "doganlar-jumbo-mat-sari",
+    "code": "JUMBO MAT SARI",
+    "brand": "DOGANLAR",
+    "model": "JUMBO MAT SARI",
+    "baseModel": "JUMBO",
+    "finish": "MAT SARI",
+    "color": "MAT SARI · ოქროსფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-jumbo-mat-sari-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-jumbo-olifka",
+    "code": "JUMBO OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "JUMBO OLIFKA",
+    "baseModel": "JUMBO",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-jumbo-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-jumbo-super-saten",
+    "code": "JUMBO SUPER SATEN",
+    "brand": "DOGANLAR",
+    "model": "JUMBO SUPER SATEN",
+    "baseModel": "JUMBO",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-jumbo-super-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-karma-mat-siyah",
+    "code": "KARMA MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "KARMA MAT SIYAH",
+    "baseModel": "KARMA",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-karma-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-karma-olifka",
+    "code": "KARMA OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "KARMA OLIFKA",
+    "baseModel": "KARMA",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-karma-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-karma-super-saten",
+    "code": "KARMA SUPER SATEN",
+    "brand": "DOGANLAR",
+    "model": "KARMA SUPER SATEN",
+    "baseModel": "KARMA",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-karma-super-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-leylak-mat-sari",
+    "code": "LEYLAK MAT SARI",
+    "brand": "DOGANLAR",
+    "model": "LEYLAK MAT SARI",
+    "baseModel": "LEYLAK",
+    "finish": "MAT SARI",
+    "color": "MAT SARI · ოქროსფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-leylak-mat-sari-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-leylak-mat-siyah",
+    "code": "LEYLAK MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "LEYLAK MAT SIYAH",
+    "baseModel": "LEYLAK",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-leylak-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-leylak-olifka",
+    "code": "LEYLAK OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "LEYLAK OLIFKA",
+    "baseModel": "LEYLAK",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-leylak-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-leylak-super-saten",
+    "code": "LEYLAK SUPER SATEN",
+    "brand": "DOGANLAR",
+    "model": "LEYLAK SUPER SATEN",
+    "baseModel": "LEYLAK",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-leylak-super-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-linea-mat-siyah",
+    "code": "LINEA MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "LINEA MAT SIYAH",
+    "baseModel": "LINEA",
+    "finish": "MAT SIYAH",
+    "color": "MAT SIYAH · შავი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-linea-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-linea-olifka",
+    "code": "LINEA OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "LINEA OLIFKA",
+    "baseModel": "LINEA",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-linea-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-linea-super-saten",
+    "code": "LINEA SUPER SATEN",
+    "brand": "DOGANLAR",
+    "model": "LINEA SUPER SATEN",
+    "baseModel": "LINEA",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-linea-super-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-nanda-antik-silver",
+    "code": "NANDA ANTIK SILVER",
+    "brand": "DOGANLAR",
+    "model": "NANDA ANTIK SILVER",
+    "baseModel": "NANDA",
+    "finish": "ANTIK SILVER",
+    "color": "ANTIK SILVER · დაძველება ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-nanda-antik-silver-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-nanda-olifka",
+    "code": "NANDA OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "NANDA OLIFKA",
+    "baseModel": "NANDA",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-nanda-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-prestij-antrasit",
+    "code": "PRESTIJ ANTRASIT",
+    "brand": "DOGANLAR",
+    "model": "PRESTIJ ANTRASIT",
+    "baseModel": "PRESTIJ",
+    "finish": "ANTRASIT",
+    "color": "ANTRASIT · ანტრაციტი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-prestij-antrasit-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-prestij-mat-siyah",
+    "code": "PRESTIJ MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "PRESTIJ MAT SIYAH",
+    "baseModel": "PRESTIJ",
+    "finish": "MAT SIYAH",
+    "color": "MAT SIYAH · შავი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-prestij-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-prstij-ofilka",
+    "code": "PRSTIJ OFILKA",
+    "brand": "DOGANLAR",
+    "model": "PRSTIJ OFILKA",
+    "baseModel": "PRESTIJ",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-prstij-ofilka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-techno-antrasit",
+    "code": "TECHNO ANTRASIT",
+    "brand": "DOGANLAR",
+    "model": "TECHNO ANTRASIT",
+    "baseModel": "TECHNO",
+    "finish": "ANTRASIT",
+    "color": "ANTRASIT · ანტრაციტი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-techno-antrasit-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-techno-mat-siyah",
+    "code": "TECHNO MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "TECHNO MAT SIYAH",
+    "baseModel": "TECHNO",
+    "finish": "MAT SIYAH",
+    "color": "MAT SIYAH · შავი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-techno-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-techno-olifka",
+    "code": "TECHNO OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "TECHNO OLIFKA",
+    "baseModel": "TECHNO",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-techno-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-techno-super-saten",
+    "code": "TECHNO SUPER SATEN",
+    "brand": "DOGANLAR",
+    "model": "TECHNO SUPER SATEN",
+    "baseModel": "TECHNO",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-techno-super-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-tore-mat-siyah",
+    "code": "TORE MAT SIYAH",
+    "brand": "DOGANLAR",
+    "model": "TORE MAT SIYAH",
+    "baseModel": "TORE",
+    "finish": "MAT SIYAH",
+    "color": "MAT SIYAH · შავი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-tore-mat-siyah-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-tore-olifka",
+    "code": "TORE OLIFKA",
+    "brand": "DOGANLAR",
+    "model": "TORE OLIFKA",
+    "baseModel": "TORE",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-tore-olifka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-tore-super-saten",
+    "code": "TORE SUPER SATEN",
+    "brand": "DOGANLAR",
+    "model": "TORE SUPER SATEN",
+    "baseModel": "TORE",
+    "finish": "SUPER SATEN",
+    "color": "SUPER SATEN · ვერცხლისფერი მატი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-tore-super-saten-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-z-neon-mat-sari",
+    "code": "Z.NEON MAT SARI",
+    "brand": "DOGANLAR",
+    "model": "Z.NEON MAT SARI",
+    "baseModel": "Z.NEON",
+    "finish": "MAT SARI",
+    "color": "MAT SARI · ოქროსფერი",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-z-neon-mat-sari-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-z-neon-ofilka",
+    "code": "Z.NEON OFILKA",
+    "brand": "DOGANLAR",
+    "model": "Z.NEON OFILKA",
+    "baseModel": "Z.NEON",
+    "finish": "OLIFKA",
+    "color": "OLIFKA · დაძველება",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-z-neon-ofilka-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "doganlar-z-neon-saten",
+    "code": "Z.NEON SATEN",
+    "brand": "DOGANLAR",
+    "model": "Z.NEON SATEN",
+    "baseModel": "Z.NEON",
+    "finish": "SATEN",
+    "color": "SATEN · ვერცხლისფერი პრიალა",
+    "country": "თურქეთი",
+    "price": null,
+    "images": [
+      "/images/handles/doganlar-z-neon-saten-1.jpg"
+    ],
+    "imgWide": false
+  }
+]

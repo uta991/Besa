@@ -22,7 +22,7 @@ type Category = {
 
 const CATEGORIES: Category[] = [
   { key: "cat.locks", slug: "locks", icon: Lock, href: "/locks" },
-  { key: "cat.handles", slug: "handles", icon: DoorOpen, href: "#" },
+  { key: "cat.handles", slug: "handles", icon: DoorOpen, href: "/handles" },
   { key: "cat.safes", slug: "safes", icon: Vault, href: "/safes" },
   {
     key: "cat.smartLocks",
@@ -32,7 +32,7 @@ const CATEGORIES: Category[] = [
   },
   { key: "cat.accessories", slug: "accessories", icon: Puzzle, href: "#" },
   { key: "cat.closers", slug: "shveicari", icon: KeyRound, href: "/closers" },
-  { key: "cat.cylinders", slug: "cylinders", icon: Key, href: "#" },
+  { key: "cat.cylinders", slug: "cylinders", icon: Key, href: "/cylinders" },
 ];
 
 export function Categories() {

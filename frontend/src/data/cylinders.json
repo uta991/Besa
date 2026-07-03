@@ -1,0 +1,295 @@
+[
+  {
+    "slug": "cisa-asix-p8-pro",
+    "code": "ASIX P8 PRO",
+    "brand": "CISA",
+    "model": "ASIX P8 PRO",
+    "protectionLevel": "",
+    "specFeatures": [
+      "6 აქტიური პინი",
+      "2 პასიური პინი",
+      "ორ რიგად განლაგებული პინები",
+      "ნახშირბადით გამაგრებული პინები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/cisa-asix-p8-pro-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-astral-tekno-pro",
+    "code": "ASTRAL TEKNO PRO",
+    "brand": "CISA",
+    "model": "ASTRAL TEKNO PRO",
+    "protectionLevel": "",
+    "specFeatures": [
+      "10 კოდირებული პინი",
+      "2 რიგიანი სისტემა",
+      "BKP სისტემა- BUMPING საწინააღმდეგო"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/cisa-astral-tekno-pro-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-rs3",
+    "code": "RS3",
+    "brand": "CISA",
+    "model": "RS3",
+    "protectionLevel": "",
+    "specFeatures": [
+      "19 რადიალურად განლაგებული სისტემა",
+      "5 დამოუკიდებელი რიგი",
+      "მოძრავი უსაფრთხოების ნაწილი",
+      "გაბურღვის საწინააღმდეგო სისტემა"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/cisa-rs3-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-rs5",
+    "code": "RS5",
+    "brand": "CISA",
+    "model": "RS5",
+    "protectionLevel": "",
+    "specFeatures": [
+      "16 რადიალურად განლაგებული სისტემა",
+      "5 დამოუკიდებელი რიგი",
+      "მოძრავი უსაფრთხოების ნაწილი",
+      "გაბურღვის საწინააღმდეგო სისტემა",
+      "ნახშირბადის პინები",
+      "3დ პრინტერისგან დამცავი მოძრავი ელემენტი",
+      "8 მილიარდი კომბინაცია",
+      "TOPOLINO-ს საწინააღმდეგო სისტემა"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/cisa-rs5-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champions-c10",
+    "code": "CHAMPIONS C10",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS C10",
+    "protectionLevel": "1-ვერცხლის სერია",
+    "specFeatures": [
+      "5 კოდირებული პინი",
+      "2 ზედა პროფილის საკონტროლო პინი",
+      "2 გვერდითი პროფილის საკონტროლო პინი",
+      "ANTI-PICK პროფილის საწინააღმდეგოკონტრპინები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champions-c10-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champions-28plus",
+    "code": "CHAMPIONS 28PLUS",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS C28PLUS",
+    "protectionLevel": "2-ოქროს სერია",
+    "specFeatures": [
+      "5 გამაგრებული ფოლადის ძირითადი პინი",
+      "დაპატენტებული მოძრავი როლიკი",
+      "ზედა პროფილისი კონტროლის სისტემა",
+      "3 გვერდითი პროფილის პინი",
+      "მათემატიკური პინები",
+      "30 გრადუსით გადანაცვლებული სისტემა  (CAM)"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champions-28plus-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champions-c39",
+    "code": "CHAMPIONS C39",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS C39",
+    "protectionLevel": "2-ოქროს სერია",
+    "specFeatures": [
+      "5 გამაგრებული ფოლადის ძირითადი პინი",
+      "მაგნიტური პოზიციონირების პინი",
+      "ზედა პროფილისი კონტროლის სისტემა",
+      "3 გვერდითი პროფილის პინი",
+      "3 ზედა პროფილის მათემატიკური პინები",
+      "30 გრადუსით გადანაცვლებული სისტემა  (CAM)"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champions-c39-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champions-43plus",
+    "code": "CHAMPIONS 43PLUS",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS C43PLUS",
+    "protectionLevel": "2-ოქროს სერია",
+    "specFeatures": [
+      "5 გამაგრებული ფოლადის ძირითადი პინი",
+      "სლაიდური სისტემა",
+      "3 გვერდითი პროფილის პინი",
+      "სოკოსებრი პინები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champions-43plus-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champions-c48",
+    "code": "CHAMPIONS C48",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS C48",
+    "protectionLevel": "3-პლატინის სერია",
+    "specFeatures": [
+      "5 გამაგრებული ფოლადის ძირითადი პინი",
+      "4 მბრუნავი პინი",
+      "სლაიდური სისტემა",
+      "მაგნიტური პინები",
+      "გვერდითა პროფილის კონტროლის პინები",
+      "ANTI-PICK პინები",
+      "დამატებითი ფოლადის პინები და დამცავი ელემენტები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champions-c48-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champions-c55",
+    "code": "CHAMPIONS C55",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS C55",
+    "protectionLevel": "3-პლატინის სერია",
+    "specFeatures": [
+      "6 გამაგრებული ფოლადის ძირითადი პინი",
+      "3 მბრუნავი პინი",
+      "ორმაგი სლაიდური სისტემა",
+      "INTERACTIVE პინები",
+      "გვერდითი დამბლოკავი ზოლი",
+      "ცრუ ANTI-PROBING ღარები",
+      "მათემატიკური პინები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champions-c55-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champions-cp6",
+    "code": "CHAMPIONS CP6",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS CP6",
+    "protectionLevel": "2-ოქროს სერია",
+    "specFeatures": [
+      "5 გამაგრებული ფოლადის ძირითადი პინი",
+      "3 მბრუნავი პინი",
+      "ორმაგი სლაიდური სისტემა",
+      "მათემატიკური ზედა პროფილის პინები",
+      "გვერდითა პროფილის კონტროლის პინები",
+      "ANTI-PICK პინები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champions-cp6-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-champion-pro",
+    "code": "CHAMPION PRO",
+    "brand": "MOTTURA",
+    "model": "CHAMPIONS PRO/CP4",
+    "protectionLevel": "1-ვერცხლის სერია",
+    "specFeatures": [
+      "6 კოდირებული პინი",
+      "მათემატიკური ზედა პროფილის საკონტროლო პინი",
+      "3 გვერდითი პროფილის საკონტროლო პინი",
+      "ANTI-PICK პროფილის საწინააღმდეგოკონტრპინები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-champion-pro-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-project-viper",
+    "code": "PROJECT VIPER",
+    "brand": "MOTTURA",
+    "model": "PROJECT VIPER",
+    "protectionLevel": "",
+    "specFeatures": [
+      "10 კოდირებული პინი",
+      "2 მბრუნავი პინი",
+      "გამაგრებული პინები"
+    ],
+    "keyCount": "5ც",
+    "country": "",
+    "price": null,
+    "images": [
+      "/images/cylinders/mottura-project-viper-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "securemme-evo-k18-pro",
+    "code": "EVO K18 PRO",
+    "brand": "SECUREMME",
+    "model": "EVO K18P",
+    "protectionLevel": "",
+    "specFeatures": [
+      "6 აქტიური პინი",
+      "1 ANTI-IMPRESSION პინი",
+      "ANTI-PICK კონტრპინები"
+    ],
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/cylinders/securemme-evo-k18-pro-1.jpg"
+    ],
+    "imgWide": false
+  }
+]

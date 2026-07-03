@@ -19,13 +19,17 @@ const HREF: Record<string, string> = {
   "cat.gunSafes": "/safes?cat=gun",
   "cat.smartLocks": "/smart-locks",
   "cat.closers": "/closers",
+  "cat.cylinders": "/cylinders",
+  "cat.handles": "/handles",
 };
 const ORDER = [
   "cat.locks",
+  "cat.handles",
   "cat.safes",
   "cat.gunSafes",
   "cat.smartLocks",
   "cat.closers",
+  "cat.cylinders",
 ];
 
 const counts: Record<string, number> = {};

@@ -2300,5 +2300,1117 @@
       "/images/locks/guardian-profi-1p-2.jpg"
     ],
     "imgWide": false
+  },
+  {
+    "slug": "mottura-3d-535",
+    "code": "3D.535",
+    "brand": "MOTTURA",
+    "model": "3D.535",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდურლი"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-3d-535-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-3d-788",
+    "code": "3D.788",
+    "brand": "MOTTURA",
+    "model": "3D.788",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-3d-788-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-40-711",
+    "code": "40.711",
+    "brand": "MOTTURA",
+    "model": "40.711",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-40-711-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-40-731",
+    "code": "40.731",
+    "brand": "MOTTURA",
+    "model": "40.731",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "3 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-40-731-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-40-802",
+    "code": "40.802",
+    "brand": "MOTTURA",
+    "model": "40.802",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "3 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-40-802-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-40-852",
+    "code": "40.852",
+    "brand": "MOTTURA",
+    "model": "40.852",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "3 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-40-852-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-41-812",
+    "code": "41.812",
+    "brand": "MOTTURA",
+    "model": "41.812",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "3 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-41-812-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-41-814",
+    "code": "41.814",
+    "brand": "MOTTURA",
+    "model": "41.814",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "შარიკიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "3 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-41-814-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-48-702",
+    "code": "48.702",
+    "brand": "MOTTURA",
+    "model": "48.702",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-48-702-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-50-735",
+    "code": "50.735",
+    "brand": "MOTTURA",
+    "model": "50.735",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-50-735-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-770",
+    "code": "52.770",
+    "brand": "MOTTURA",
+    "model": "52.770",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-770-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-771",
+    "code": "52.771",
+    "brand": "MOTTURA",
+    "model": "52.771",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-771-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-795",
+    "code": "52.795",
+    "brand": "MOTTURA",
+    "model": "52.795",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ბლოკირებული სისტემა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-795-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-797",
+    "code": "52.797",
+    "brand": "MOTTURA",
+    "model": "52.797",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ბლოკირებული სისტემა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-797-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-j535",
+    "code": "52.J535",
+    "brand": "MOTTURA",
+    "model": "52.J535",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-j535-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-j535-my-key",
+    "code": "52.J535 MY KEY",
+    "brand": "MOTTURA",
+    "model": "52.J535 MY KEY",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-j535-my-key-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-j771",
+    "code": "52.J771",
+    "brand": "MOTTURA",
+    "model": "52.J771",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-j771-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-j771-my-key",
+    "code": "52.J771 MY KEY",
+    "brand": "MOTTURA",
+    "model": "52.J771 MY KEY",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-j771-my-key-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-j797",
+    "code": "52.J797",
+    "brand": "MOTTURA",
+    "model": "52.J797",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ბლოკირებული სისტემა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-j797-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-j797-my-key",
+    "code": "52.J797 MY KEY",
+    "brand": "MOTTURA",
+    "model": "52.J797 MY KEY",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ბლოკირებული სისტემა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-j797-my-key-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-52-j935-my-key",
+    "code": "52.J935 MY KEY",
+    "brand": "MOTTURA",
+    "model": "52.J935 MY KEY",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ბლოკირებული სისტემა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-52-j935-my-key-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-72-110",
+    "code": "72.110",
+    "brand": "MOTTURA",
+    "model": "72.110",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-72-110-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-72-120",
+    "code": "72.120",
+    "brand": "MOTTURA",
+    "model": "72.120",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-72-120-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-72-125",
+    "code": "72.125",
+    "brand": "MOTTURA",
+    "model": "72.125",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "შარიკიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-72-125-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-72-14ele",
+    "code": "72.14ELE",
+    "brand": "MOTTURA",
+    "model": "72.14ELE",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ელექტრო"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-72-14ele-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-82-771",
+    "code": "82.771",
+    "brand": "MOTTURA",
+    "model": "82.771",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდურლი"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-82-771-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-82-91elw",
+    "code": "82.91ELW",
+    "brand": "MOTTURA",
+    "model": "82.91ELW",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ელექტრო"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-82-91elw-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-85-120",
+    "code": "85.120",
+    "brand": "MOTTURA",
+    "model": "85.120",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-85-120-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-85-125",
+    "code": "85.125",
+    "brand": "MOTTURA",
+    "model": "85.125",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "ბურთულიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-85-125-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-85-778",
+    "code": "85.778",
+    "brand": "MOTTURA",
+    "model": "85.778",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-85-778-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-85-97ene",
+    "code": "85.97ENE",
+    "brand": "MOTTURA",
+    "model": "85.97ENE",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ელექტრო"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-85-97ene-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-85-991",
+    "code": "85.991",
+    "brand": "MOTTURA",
+    "model": "85.991",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-85-991-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-85-a97",
+    "code": "85.A97",
+    "brand": "MOTTURA",
+    "model": "85.A97",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ავტომატური ჩამკეტი"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-85-a97-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-dp2517",
+    "code": "DP2517",
+    "brand": "MOTTURA",
+    "model": "DP2517",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-dp2517-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-dp5817",
+    "code": "DP5817",
+    "brand": "MOTTURA",
+    "model": "DP5817",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-dp5817-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-dp58171",
+    "code": "DP58171",
+    "brand": "MOTTURA",
+    "model": "DP58171",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/mottura-dp58171-1.jpg"
+    ],
+    "imgWide": false
   }
 ]

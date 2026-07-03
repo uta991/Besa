@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { Search, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import { Logo } from "./logo";
 import { MainNav } from "./main-nav";
 import { LanguageSwitcher } from "./language-switcher";
+import { ProductSearch } from "./product-search";
 
 export function SiteHeader() {
   return (
@@ -16,8 +17,8 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <div className="hidden items-center gap-1.5 sm:flex">
+            <ProductSearch />
             {[
-              { icon: Search, label: "ძებნა" },
               { icon: Phone, label: "დარეკვა" },
               { icon: MapPin, label: "მისამართი" },
             ].map(({ icon: Icon, label }) => (
