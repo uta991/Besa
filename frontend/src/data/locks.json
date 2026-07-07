@@ -1,5 +1,783 @@
 [
   {
+    "slug": "cisa-44238",
+    "code": "44238",
+    "brand": "CISA",
+    "model": "44238",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.lockType",
+        "v": "ბურთულიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-44238-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-4466125",
+    "code": "4466125",
+    "brand": "CISA",
+    "model": "4466125",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-4466125-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-4466625",
+    "code": "4466625",
+    "brand": "CISA",
+    "model": "4466625",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-4466625-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-4466630",
+    "code": "4466630",
+    "brand": "CISA",
+    "model": "4466630",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-4466630-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-4466635",
+    "code": "4466635",
+    "brand": "CISA",
+    "model": "4466635",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-4466635-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-4467125",
+    "code": "4467125",
+    "brand": "CISA",
+    "model": "4467125",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "ბურთულიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-4467125-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5252145",
+    "code": "5252145",
+    "brand": "CISA",
+    "model": "5252145",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5252145-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-565354",
+    "code": "565354",
+    "brand": "CISA",
+    "model": "565354",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-565354-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-570286",
+    "code": "570286",
+    "brand": "CISA",
+    "model": "570286",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-570286-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5703060",
+    "code": "5703060",
+    "brand": "CISA",
+    "model": "5703060",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5703060-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5721140",
+    "code": "5721140",
+    "brand": "CISA",
+    "model": "5721140",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5721140-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5721145",
+    "code": "5721145",
+    "brand": "CISA",
+    "model": "5721145",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5721145-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-57223",
+    "code": "57223",
+    "brand": "CISA",
+    "model": "57223",
+    "lockType": "locktype.additional",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "დამატებითი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "2 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-57223-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5729145",
+    "code": "5729145",
+    "brand": "CISA",
+    "model": "5729145",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5729145-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-573207",
+    "code": "573207",
+    "brand": "CISA",
+    "model": "573207",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "ბურთულიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-573207-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-57685",
+    "code": "57685",
+    "brand": "CISA",
+    "model": "57685",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "პეპელა"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-57685-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-57986",
+    "code": "57986",
+    "brand": "CISA",
+    "model": "57986",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "კომბინირებული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "გადამრთველი გასაღებით"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      },
+      {
+        "k": "spec.keyCount",
+        "v": "5 ც"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-57986-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c611400",
+    "code": "5C611400",
+    "brand": "CISA",
+    "model": "5C611400",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c611400-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c6114001",
+    "code": "5C6114001",
+    "brand": "CISA",
+    "model": "5C6114001",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c6114001-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c611450",
+    "code": "5C611450",
+    "brand": "CISA",
+    "model": "5C611450",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c611450-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c6114501",
+    "code": "5C6114501",
+    "brand": "CISA",
+    "model": "5C6114501",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c6114501-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c611500",
+    "code": "5C611500",
+    "brand": "CISA",
+    "model": "5C611500",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c611500-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c6115001",
+    "code": "5C6115001",
+    "brand": "CISA",
+    "model": "5C6115001",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c6115001-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c61160",
+    "code": "5C61160",
+    "brand": "CISA",
+    "model": "5C61160",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c61160-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c61170",
+    "code": "5C61170",
+    "brand": "CISA",
+    "model": "5C61170",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c61170-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c6214",
+    "code": "5C6214",
+    "brand": "CISA",
+    "model": "5C6214",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "ბურთულიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c6214-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-5c6216",
+    "code": "5C6216",
+    "brand": "CISA",
+    "model": "5C6216",
+    "lockType": "locktype.knob",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "ბურთულიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-5c6216-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-6215250",
+    "code": "6215250",
+    "brand": "CISA",
+    "model": "6215250",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ელექტრო"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-6215250-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "cisa-6215350",
+    "code": "6215350",
+    "brand": "CISA",
+    "model": "6215350",
+    "lockType": "locktype.handle",
+    "specs": [
+      {
+        "k": "spec.mechType",
+        "v": "ცილინდრული"
+      },
+      {
+        "k": "spec.spec",
+        "v": "ელექტრო"
+      },
+      {
+        "k": "spec.lockType",
+        "v": "სახელურიანი"
+      },
+      {
+        "k": "spec.mountType",
+        "v": "ჩასაშენებელი"
+      }
+    ],
+    "price": null,
+    "images": [
+      "/images/locks/cisa-6215350-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
     "slug": "guardian-10-01-3",
     "code": "10.01 3",
     "brand": "GUARDIAN",

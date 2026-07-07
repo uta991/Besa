@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "disec-mr500",
+    "code": "MR500",
+    "brand": "DISEC",
+    "model": "MR500",
+    "baseModel": "MR500",
+    "accessoryType": "ცილინდრული",
+    "spec": "მაგნიტური დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "დამატებითი",
+    "keyCount": "3",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/disec-mr500-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-9411aa",
+    "code": "9411AA",
+    "brand": "MOTTURA",
+    "model": "9411AA",
+    "baseModel": "9411AA",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-9411aa-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-9411br",
+    "code": "9411BR",
+    "brand": "MOTTURA",
+    "model": "9411BR",
+    "baseModel": "9411BR",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "ყავისფერი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-9411br-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-9411ot",
+    "code": "9411OT",
+    "brand": "MOTTURA",
+    "model": "9411OT",
+    "baseModel": "9411OT",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "ოქროსფრი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-9411ot-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-9493aa",
+    "code": "9493AA",
+    "brand": "MOTTURA",
+    "model": "9493AA",
+    "baseModel": "DF072AA",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-9493aa-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-9493n",
+    "code": "9493N",
+    "brand": "MOTTURA",
+    "model": "9493N",
+    "baseModel": "9493N",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "შავი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-9493n-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-9493ot",
+    "code": "9493OT",
+    "brand": "MOTTURA",
+    "model": "9493OT",
+    "baseModel": "DF072OT",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "ოქროსფერი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-9493ot-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df072aa",
+    "code": "DF072AA",
+    "brand": "MOTTURA",
+    "model": "DF072AA",
+    "baseModel": "DF072AA",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df072aa-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df072n0",
+    "code": "DF072N0",
+    "brand": "MOTTURA",
+    "model": "DF072N0",
+    "baseModel": "DF072NO",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "შავი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df072n0-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df072ot",
+    "code": "DF072OT",
+    "brand": "MOTTURA",
+    "model": "DF072OT",
+    "baseModel": "DF072OT",
+    "accessoryType": "ცილინდრული",
+    "spec": "გულანის დამცავი",
+    "color": "ოქროსფერი",
+    "lockType": "",
+    "keyCount": "",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df072ot-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df371n",
+    "code": "DF371N",
+    "brand": "MOTTURA",
+    "model": "DF371N",
+    "baseModel": "DF371N",
+    "accessoryType": "ცილინდრული",
+    "spec": "მაგნიტური დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "დამატებითი",
+    "keyCount": "3ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df371n-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df371nc",
+    "code": "DF371NC",
+    "brand": "MOTTURA",
+    "model": "DF371NC",
+    "baseModel": "DF371NC",
+    "accessoryType": "ცილინდრული",
+    "spec": "მაგნიტური დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "დამატებითი",
+    "keyCount": "3",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df371nc-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df43dnc",
+    "code": "DF43DNC",
+    "brand": "MOTTURA",
+    "model": "DF43DNC",
+    "baseModel": "DF43DNC",
+    "accessoryType": "3D გასაღების",
+    "spec": "მაგნიტური დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "დამატებითი",
+    "keyCount": "5ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df43dnc-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df43n",
+    "code": "DF43N",
+    "brand": "MOTTURA",
+    "model": "DF43N",
+    "baseModel": "DF43N",
+    "accessoryType": "პეპელა",
+    "spec": "მაგნიტური დამცავი",
+    "color": "შავი",
+    "lockType": "დამატებითი",
+    "keyCount": "3ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df43n-1.jpg"
+    ],
+    "imgWide": false
+  },
+  {
+    "slug": "mottura-df43nc",
+    "code": "DF43NC",
+    "brand": "MOTTURA",
+    "model": "DF43NC",
+    "baseModel": "DF43NC",
+    "accessoryType": "პეპელა",
+    "spec": "მაგნიტური დამცავი",
+    "color": "ვერცხლისფერი",
+    "lockType": "დამატებითი",
+    "keyCount": "3ც",
+    "country": "იტალია",
+    "price": null,
+    "images": [
+      "/images/accessories/mottura-df43nc-1.jpg"
+    ],
+    "imgWide": false
+  }
+]

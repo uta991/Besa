@@ -29,7 +29,7 @@ const CATEGORIES: { key: string; href: string; icon: LucideIcon }[] = [
   { key: "cat.handles", href: "/handles", icon: DoorOpen },
   { key: "cat.safes", href: "/safes", icon: Vault },
   { key: "cat.smartLocks", href: "/smart-locks", icon: ScanFace },
-  { key: "cat.accessories", href: "/#categories", icon: Puzzle },
+  { key: "cat.accessories", href: "/accessories", icon: Puzzle },
   { key: "cat.closers", href: "/closers", icon: KeyRound },
   { key: "cat.cylinders", href: "/cylinders", icon: Key },
   { key: "cat.gunSafes", href: "/safes?cat=gun", icon: Target },

@@ -4,6 +4,7 @@ import { CLOSERS } from "./closers";
 import { LOCKS } from "./locks";
 import { CYLINDERS } from "./cylinders";
 import { HANDLES } from "./handles";
+import { ACCESSORIES } from "./accessories";
 
 export type CatalogItem = {
   name: string;
@@ -83,6 +84,16 @@ export const CATALOG: CatalogItem[] = [
     image: s.images[0] ?? null,
     imgFit: s.imgWide ? "contain" : "cover",
     href: `/handles/${s.slug}`,
+  })),
+  ...ACCESSORIES.map((s) => ({
+    name: s.baseModel || s.model,
+    brand: s.brand,
+    brandSlug: brandSlug(s.brand),
+    categoryKey: "cat.accessories",
+    price: s.price,
+    image: s.images[0] ?? null,
+    imgFit: s.imgWide ? "contain" : "cover",
+    href: `/accessories/${s.slug}`,
   })),
 ];
 

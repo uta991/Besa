@@ -7,6 +7,7 @@ export type Brand = {
 export const BRANDS: Brand[] = [
   { file: "agb", name: "AGB", slug: "agb" },
   { file: "cisa", name: "CISA", slug: "cisa" },
+  { file: "disec", name: "Disec", slug: "disec" },
   { file: "mottura", name: "Mottura", slug: "mottura" },
   { file: "guradian", name: "Guardian", slug: "guardian" },
   { file: "philips", name: "Philips", slug: "philips" },

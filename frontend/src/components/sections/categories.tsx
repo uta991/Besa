@@ -30,7 +30,7 @@ const CATEGORIES: Category[] = [
     icon: ScanFace,
     href: "/smart-locks",
   },
-  { key: "cat.accessories", slug: "accessories", icon: Puzzle, href: "#" },
+  { key: "cat.accessories", slug: "accessories", icon: Puzzle, href: "/accessories" },
   { key: "cat.closers", slug: "shveicari", icon: KeyRound, href: "/closers" },
   { key: "cat.cylinders", slug: "cylinders", icon: Key, href: "/cylinders" },
 ];
