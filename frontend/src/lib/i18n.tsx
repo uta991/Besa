@@ -65,6 +65,8 @@ export function useT() {
 
 const COUNTRY: Record<string, Record<Locale, string>> = {
   "სამხრეთ კორეა": { ka: "სამხრეთ კორეა", en: "South Korea", ru: "Южная Корея" },
+  "იტალია": { ka: "იტალია", en: "Italy", ru: "Италия" },
+  "თურქეთი": { ka: "თურქეთი", en: "Turkey", ru: "Турция" },
 };
 
 const TOKENS: Record<string, Record<Locale, string>> = {
