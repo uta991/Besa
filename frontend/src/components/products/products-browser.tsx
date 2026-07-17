@@ -34,7 +34,7 @@ export function ProductsBrowser({
   return (
     <div className="grid gap-8 lg:grid-cols-[240px_1fr]">
       <aside>
-        <div className="rounded-xl border bg-card p-4 shadow-sm lg:sticky lg:top-24">
+        <div className="rounded-xl border bg-card p-4 shadow-sm lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto">
           <h3 className="mb-3 px-3 text-sm font-semibold text-brand">
             {t("filter.categories")}
           </h3>

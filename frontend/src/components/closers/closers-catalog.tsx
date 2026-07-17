@@ -219,7 +219,7 @@ export function ClosersCatalog({ products }: { products: Closer[] }) {
   return (
     <div className="grid gap-8 lg:grid-cols-[240px_1fr]">
       <aside className="hidden lg:block">
-        <div className="sticky top-24 rounded-xl border bg-card p-5 shadow-sm">
+        <div className="sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto rounded-xl border bg-card p-5 shadow-sm">
           {sidebar}
         </div>
       </aside>

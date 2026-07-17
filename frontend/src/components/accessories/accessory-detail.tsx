@@ -16,6 +16,8 @@ export function AccessoryDetail({ item }: { item: Accessory }) {
     { label: t("spec.accessoryType"), value: tValue(item.accessoryType, locale) },
     { label: t("spec.spec"), value: tValue(item.spec, locale) },
     { label: t("spec.color"), value: tValue(item.color, locale) },
+    { label: t("spec.metal"), value: tValue(item.metal, locale) },
+    { label: t("spec.dimensions"), value: tValue(item.dimensions, locale) },
     { label: t("spec.lockType"), value: tValue(item.lockType, locale) },
     { label: t("spec.keyCount"), value: tValue(item.keyCount, locale) },
     { label: t("spec.country"), value: tValue(item.country, locale) },

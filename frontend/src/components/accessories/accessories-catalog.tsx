@@ -107,8 +107,9 @@ export function AccessoriesCatalog({ products }: { products: Accessory[] }) {
 
   const sidebar = (
     <div className="flex flex-col gap-7">
+      {/* categories first, then brands */}
+      {group(t("filter.categories"), ACCESSORY_TYPES, types, toggleType)}
       {group(t("filter.brands"), ACCESSORY_BRANDS, brands, toggleBrand)}
-      {group(t("spec.accessoryType"), ACCESSORY_TYPES, types, toggleType)}
       {group(t("spec.color"), ACCESSORY_COLORS, colors, toggleColor)}
       <button
         type="button"
@@ -127,7 +128,7 @@ export function AccessoriesCatalog({ products }: { products: Accessory[] }) {
   return (
     <div className="grid gap-8 lg:grid-cols-[240px_1fr]">
       <aside className="hidden lg:block">
-        <div className="sticky top-24 rounded-xl border bg-card p-5 shadow-sm">
+        <div className="sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto rounded-xl border bg-card p-5 shadow-sm">
           {sidebar}
         </div>
       </aside>

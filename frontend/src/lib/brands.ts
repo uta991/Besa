@@ -25,7 +25,8 @@ export const BRANDS: Brand[] = [
   { file: "bordonga", name: "Bordogna", slug: "bordogna-casseforti" },
   { file: "plast", name: "Plast", slug: "plast" },
   { file: "freud", name: "Freud", slug: "freud" },
-  { file: "duranteadesivi", name: "Durante & Adesivi", slug: "duranteadesivi" },
+  { file: "duranteadesivi", name: "Durante & Adesivi", slug: "durante-adesivi" },
+  { file: "sofoglu", name: "Sofoglu", slug: "sofuoglu" },
   { file: "serratura", name: "Serratura", slug: "serratura" },
 ];
 

@@ -7,7 +7,7 @@ import { ACCESSORIES } from "@/lib/accessories";
 
 export const metadata: Metadata = {
   title: "აქსესუარები",
-  description: "აქსესუარები — Disec, Mottura.",
+  description: "აქსესუარები — ბრონები, პეტლები, რეზინა, წებო, ხერხი.",
 };
 
 export default function AccessoriesPage() {
